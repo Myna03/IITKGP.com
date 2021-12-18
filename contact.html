@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>IITKgp website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/iitkgp-min.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-window-close" onclick="hideMenu()" ></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="course.html">Courses</a></li>
+                        <li><a href="department.html">Departments</a></li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                        <li><a href="festivals.html">Festivals</a></li>
+                        <li><a href="societies.html">Societies</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-sort-desc" onclick="showMenu()"></i>
+            </nav>
+            <h1>Contact Us</h1>
+        </section>
+        
+        <!----- Contact us content ----->
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29528.25891758702!2d87.29238498012366!3d22.31461571021787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1d440255555547%3A0x6f2f20dd0c0d6793!2sIndian%20Institute%20of%20Technology%20Kharagpur!5e0!3m2!1sen!2sin!4v1639824215879!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+        
+        <section class="contact-us">
+            
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>Indian Institute of Technology</h5>
+                            <p>Kharagpur, West Bengal, India - 721302</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>+91-3222-255221</h5>
+                            <p>Phone Number</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-fax"></i>
+                        <span>
+                            <h5>+91-3222-255303</h5>
+                            <p>Fax</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        
+        
+        
+        <!-----Javascript for menu ----->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
