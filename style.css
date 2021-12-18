@@ -527,6 +527,105 @@ h1{
     padding: 15px 0 25px;
 }
 
+/*----- Spring fest -----*/
+.sub-header6{
+    height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/spring.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.sub-header6 h1{
+    margin-top: 100px;
+}
+.spring-fest{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.spring-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.spring-col img{
+    width: 100%;
+}
+.spring-col h1{
+    padding-top: 0;
+}
+.spring-col p{
+    padding: 15px 0 25px;
+}
+
+/*----- Kshitij fest -----*/
+.sub-header7{
+    height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/ktj.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.sub-header7 h1{
+    margin-top: 100px;
+}
+.ktj-fest{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.ktj-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.ktj-col img{
+    width: 100%;
+}
+.ktj-col h1{
+    padding-top: 0;
+}
+.ktj-col p{
+    padding: 15px 0 25px;
+}
+
+/*----- illumination -----*/
+.sub-header8{
+    height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/rangoli.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.sub-header8 h1{
+    margin-top: 100px;
+}
+.illu{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.illu-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.illu-col img{
+    width: 100%;
+}
+.illu-col h1{
+    padding-top: 0;
+}
+.illu-col p{
+    padding: 15px 0 25px;
+}
+
 /*----- Contact Us page -----*/
 .location{
     width: 80%;
